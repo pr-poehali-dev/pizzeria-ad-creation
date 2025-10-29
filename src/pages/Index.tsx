@@ -9,13 +9,14 @@ interface MenuItem {
   name: string;
   price: number;
   ingredients: string;
+  image?: string;
 }
 
 const menuData: Record<Category, MenuItem[]> = {
   'Роллы': [
-    { name: 'Цезарь с курицей', price: 300, ingredients: 'нори, рис, курица, сыр, салат, помидор' },
+    { name: 'Цезарь с курицей', price: 300, ingredients: 'нори, рис, курица, сыр, салат, помидор', image: 'https://cdn.poehali.dev/files/d029396a-47b2-4429-be24-5dd8dbfb91c4.JPG' },
     { name: 'Цезарь с креветкой', price: 330, ingredients: 'нори, рис, вареная креветка, сыр, салат, помидор' },
-    { name: 'Ойси', price: 400, ingredients: 'рис, нори, креветка в кляре, огурцы, сливочный сыр лосось, cпайси, унаги' },
+    { name: 'Ойси', price: 400, ingredients: 'рис, нори, креветка в кляре, огурцы, сливочный сыр лосось, cпайси, унаги', image: 'https://cdn.poehali.dev/files/bbf7be75-ef3e-4476-9d36-843553fc68ca.JPG' },
     { name: 'Запечённая Филадельфия', price: 400, ingredients: 'рис, нори, сливочный сыр, огурец, лосось, снежный краб шапочка, унаги' },
     { name: 'Ойси темпура', price: 430, ingredients: 'нори, рис, лосось, чеддер, креветка в кляре, зеленый лук' },
     { name: 'Калифорния – Краб', price: 380, ingredients: 'рис, нори, краб, огурец, сливочный сыр, масаго' },
@@ -40,8 +41,8 @@ const menuData: Record<Category, MenuItem[]> = {
     { name: 'Чуду с творогом', price: 320, ingredients: 'тонкое тесто, домашний творог, специи' }
   ],
   'Шаурма': [
-    { name: 'Шаурма классическая', price: 250, ingredients: 'курица, овощи, соус, лаваш' },
-    { name: 'Шаурма острая', price: 270, ingredients: 'курица, острый соус, овощи, лаваш' }
+    { name: 'Шаурма классическая', price: 250, ingredients: 'курица, овощи, соус, лаваш', image: 'https://cdn.poehali.dev/files/4c724269-6569-4e65-beb4-1595eb8fd2dd.JPG' },
+    { name: 'Шаурма острая', price: 270, ingredients: 'курица, острый соус, овощи, лаваш', image: 'https://cdn.poehali.dev/files/185222d5-5a76-45b3-93c1-f95840afd0e4.JPG' }
   ],
   'Снэки': [
     { name: 'Картофель фри', price: 150, ingredients: 'картофель, специи' },
@@ -99,6 +100,15 @@ const Index = () => {
               key={index}
               className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border-2 border-transparent hover:border-primary/20 cursor-pointer group"
             >
+              {item.image && (
+                <div className="relative h-48 overflow-hidden bg-muted">
+                  <img 
+                    src={item.image} 
+                    alt={item.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
               <div className="p-4">
                 <div className="flex items-start justify-between mb-2">
                   <h3 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors pr-2 leading-tight">
