@@ -28,7 +28,7 @@ const menuData: Record<Category, MenuItem[]> = {
     { name: 'Запеченная Креветка', price: 380, ingredients: 'рис, нори, креветка, сыр, спайси соус' }
   ],
   'Пицца': [
-    { name: 'Пепперони', price: 400, ingredients: 'тонкое тесто, томатный соус, сыр моцарелла, колбаски пепперони', image: 'https://cdn.poehali.dev/files/a1637576-42d4-4aa2-9080-8b8b5cdd97c5.JPG' },
+    { name: 'Пепперони', price: 400, ingredients: 'тонкое тесто, томатный соус, сыр моцарелла, колбаски пепперони', image: 'https://cdn.poehali.dev/files/929a9352-d54f-4248-9392-9a6489ed6638.jpeg' },
     { name: 'Курица с грибами', price: 400, ingredients: 'соус сметанный, грибы шампиньоны, куриное филе, сыр моцарелла', image: 'https://cdn.poehali.dev/files/f2fe3d2a-48c3-486a-8566-d3b5bdc91413.jpeg' },
     { name: 'Ойси', price: 440, ingredients: 'фирменная пицца с морепродуктами и авторским соусом', image: 'https://cdn.poehali.dev/files/563a8abd-3649-4ef2-ac26-8da4f757ea0c.jpeg' },
     { name: 'Цезарь с курицей', price: 400, ingredients: 'куриное филе, помидоры, пармезан, фирменный соус, листья салата', image: 'https://cdn.poehali.dev/files/8e6d434a-e4dc-47ce-a153-e8eca45044b5.jpeg' },
