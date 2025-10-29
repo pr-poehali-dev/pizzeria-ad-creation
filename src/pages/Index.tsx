@@ -66,7 +66,7 @@ const Index = () => {
       <div className="max-w-[430px] mx-auto min-h-screen bg-white/95 backdrop-blur-sm shadow-2xl">
         <div className="sticky top-0 z-10 bg-gradient-to-r from-primary via-secondary to-accent p-6 pb-4 shadow-lg">
           <div className="flex items-center justify-between mb-2">
-            <h1 className="text-3xl font-bold text-white tracking-tight">Рубас</h1>
+            <h1 className="text-3xl font-bold text-white tracking-tight">ОстроWok</h1>
             <div className="bg-white/20 backdrop-blur-sm rounded-full p-2">
               <Icon name="ShoppingCart" size={24} className="text-white" />
             </div>
