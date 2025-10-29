@@ -16,22 +16,22 @@ const menuData: Record<Category, MenuItem[]> = {
   'Роллы': [
     { name: 'Цезарь с курицей', price: 300, ingredients: 'нори, рис, курица, сыр, салат, помидор', image: 'https://cdn.poehali.dev/files/d029396a-47b2-4429-be24-5dd8dbfb91c4.JPG' },
     { name: 'Цезарь с креветкой', price: 330, ingredients: 'нори, рис, вареная креветка, сыр, салат, помидор', image: 'https://cdn.poehali.dev/files/2dcec8c9-972c-46de-aa84-80eecdd7c82f.JPG' },
-    { name: 'Ойси', price: 400, ingredients: 'рис, нори, креветка в кляре, огурцы, сливочный сыр лосось, cпайси, унаги', image: 'https://cdn.poehali.dev/files/bbf7be75-ef3e-4476-9d36-843553fc68ca.JPG' },
+    { name: 'Калифорния – Краб', price: 380, ingredients: 'рис, нори, краб, огурец, сливочный сыр, масаго', image: 'https://cdn.poehali.dev/files/bbf7be75-ef3e-4476-9d36-843553fc68ca.JPG' },
+    { name: 'Калифорния – Лосось', price: 380, ingredients: 'рис, нори, лосось, огурец, сливочный сыр, масаго', image: 'https://cdn.poehali.dev/files/c2ebde0d-e415-457d-816f-b1b03a1c0d17.JPG' },
+    { name: 'ЧизуРолл', price: 350, ingredients: 'нори, рис, курица, сыр, сырный замес, унаги', image: 'https://cdn.poehali.dev/files/c4e2b7bc-1112-4ab2-9b3e-8ec052b72343.JPG' },
+    { name: 'Ойси', price: 400, ingredients: 'рис, нори, креветка в кляре, огурцы, сливочный сыр лосось, cпайси, унаги' },
     { name: 'Запечённая Филадельфия', price: 400, ingredients: 'рис, нори, сливочный сыр, огурец, лосось, снежный краб шапочка, унаги' },
     { name: 'Ойси темпура', price: 430, ingredients: 'нори, рис, лосось, чеддер, креветка в кляре, зеленый лук' },
-    { name: 'Калифорния – Краб', price: 380, ingredients: 'рис, нори, краб, огурец, сливочный сыр, масаго' },
     { name: 'Калифорния – Креветка', price: 380, ingredients: 'рис, нори, креветка, огурец, сливочный сыр, масаго' },
-    { name: 'Калифорния – Лосось', price: 380, ingredients: 'рис, нори, лосось, огурец, сливочный сыр, масаго', image: 'https://cdn.poehali.dev/files/c2ebde0d-e415-457d-816f-b1b03a1c0d17.JPG' },
     { name: 'Горячий краб', price: 370, ingredients: 'рис, нори, огурец, крабовые палочки, сыр, масаго, шапочка мацарелла' },
-    { name: 'ЧизуРолл', price: 350, ingredients: 'нори, рис, курица, сыр, сырный замес, унаги', image: 'https://cdn.poehali.dev/files/c4e2b7bc-1112-4ab2-9b3e-8ec052b72343.JPG' },
     { name: 'Филадельфия', price: 380, ingredients: 'рис, нори, сливочный сыр, огурец, лосось' },
     { name: 'Запеченная Креветка', price: 380, ingredients: 'рис, нори, креветка, сыр, спайси соус' }
   ],
   'Пицца': [
+    { name: 'Пепперони', price: 400, ingredients: 'тонкое тесто, томатный соус, сыр моцарелла, колбаски пепперони', image: 'https://cdn.poehali.dev/files/a1637576-42d4-4aa2-9080-8b8b5cdd97c5.JPG' },
     { name: '4 сыра', price: 400, ingredients: 'сыр Моцарелла, Эмменталь, Горгонзола, Пармезан' },
     { name: 'Маргарита', price: 390, ingredients: 'соус томатный, сыр Моцарелла, помидоры, базилик, масло оливковое' },
     { name: 'Цезарь с курицей', price: 400, ingredients: 'куриное филе, помидоры, пармезан, фирменный соус, листья салата' },
-    { name: 'Пепперони', price: 400, ingredients: 'тонкое тесто, томатный соус, сыр моцарелла, колбаски пепперони', image: 'https://cdn.poehali.dev/files/a1637576-42d4-4aa2-9080-8b8b5cdd97c5.JPG' },
     { name: 'Курица с грибами', price: 400, ingredients: 'соус сметанный, грибы шампиньоны, куриное филе, сыр моцарелла' },
     { name: 'Ойси', price: 440, ingredients: 'фирменная пицца с морепродуктами и авторским соусом' }
   ],
